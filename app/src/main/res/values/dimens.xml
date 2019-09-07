@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16sp</dimen>
+    <dimen name="activity_vertical_margin">16sp</dimen>
+    <dimen name="search_layout_margin">8sp</dimen>
+    <dimen name="app_bar_height">0sp</dimen>
+    <dimen name="search_et_text_size">18sp</dimen>
+    <dimen name="card_elevation">22sp</dimen>
+    <dimen name="card_bottom_margin">70sp</dimen>
+    <dimen name="card_top_margin">70sp</dimen>
+    <dimen name="card_corner_radius">7sp</dimen>
+    <dimen name="button_login_padding">10sp</dimen>
+    <dimen name="image_logo_splash_size">70sp</dimen>
+    <dimen name="image_empty_list_size">80sp</dimen>
+    <dimen name="image_doctor_height">250sp</dimen>
+    <dimen name="card_doctor_margin">8sp</dimen>
+    <dimen name="toolbar_elevation">4sp</dimen>
+</resources>

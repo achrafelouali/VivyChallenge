@@ -1,0 +1,52 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    // Sdk and tools
+    minSdkVersion = 16
+    targetSdkVersion = 26
+    compileSdkVersion = 26
+    buildToolsVersion = '26.0.2'
+
+    // App dependencies
+    supportLibraryVersion = '26.1.0'
+    gsonVersion = '2.8.0'
+    glideVersion = '3.7.0'
+    rx2FastAndroidNetworking = '1.0.1'
+    dagger2Version = '2.8'
+    rxjava2Version = '2.0.6'
+    rxandroidVersion = '2.0.1'
+    butterKnifeVersion = '8.6.0'
+    placeholderviewVersion = '0.6.1'
+    debugDBVersion = '1.0.3'
+    timberVersion = '4.5.1'
+    rxpermissionversion = '0.7.0'
+    rxlocation = 'v0.3-alpha'
+
+    //Test dependencies
+    junitVersion = '4.12'
+    espressoVersion = '2.2.1'
+    mockitoVersion = '2.7.1'
+
+
+}

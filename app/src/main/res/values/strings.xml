@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">VIVY Challenge</string>
+
+    <string name="default_vivy_password">88888888</string>
+    <string name="default_vivy_username">androidChallenge@vivy.com</string>
+
+
+    <!--App Message-->
+    <string name="api_retry_error">Please retry!</string>
+    <string name="api_default_error">Something wrong happened!</string>
+    <string name="some_error">Some Error Occurred!</string>
+    <string name="connection_error">Internet connection lost!</string>
+    <string name="location_permission_not_granted_error">Location permission not Granted, please retry again  </string>
+
+
+    <!--Splash-->
+    <string name="fetch_location">Location fetching</string>
+    <string name="please_enable_gps">Please make sure that GPS is enabled</string>
+
+    <!--Login-->
+    <string name="login_title">Login</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+
+    <!--Login Validation-->
+    <string name="empty_email">Please provide a non empty email.</string>
+    <string name="invalid_email">Please provide a valid email.</string>
+    <string name="empty_password">Please provide a non empty password.</string>
+    <string name="search_et_hint">Search</string>
+
+
+    <!--empty state-->
+    <string name="empty_screen">We do not have anything\nhere right now.</string>
+    <string name="please_retry">Please Retry</string>
+    <string name="retry">Retry</string>
+
+</resources>
