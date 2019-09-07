@@ -49,10 +49,10 @@ This repository contains a nearby doctor search application for VIVY
 ```
 
 # REMARKS
-1. After calling the Log-in API with a valid email and login, API provides AccessToken, RfreshToken and expiry time, however in best practices when the user is logged in and access token is expired we need to renew it using the given refresh token instead of forcing using to Logout.
+1. After calling the Log-in API with a valid email and login, API provides AccessToken, RefreshToken and token expiry time, however in best practices when the user is logged in and access token is expired we need to renew it using the given refresh token instead of forcing user to Logout.
 In our case we force user to logout since the API of renewing token was not found.
-2. Location fetching is done in the splash screen for a simple reason that the app don't need a realt time location tracking
-3. I remarked that the "Search dctor" API is providing results even if the location is far away from Germany (Tested with moroccan location) you can find a curl for testing it below :  [https://reqbin.com/vk6ofkne](https://reqbin.com/vk6ofkne)
+2. Location fetching is done in the splash screen for a simple reason that the app don't need a real time location tracking
+3. I remarked that the "Search doctors" API is providing results even if the location is far away from Germany (Tested with moroccan location) you can find a curl for testing it below :  [https://reqbin.com/vk6ofkne](https://reqbin.com/vk6ofkne)
 
 
 # TESTING
