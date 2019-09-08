@@ -4,6 +4,7 @@
 # VIVY TAKE HOME TEST CHALLENGE
 This repository contains a nearby doctor search application for VIVY
 <p align="center">
+<img src="http://achraf.fps-platform.com/DEMO.gif" width="250">
   <img src="http://achraf.fps-platform.com/splash_screen.png" width="250">
   <img src="http://achraf.fps-platform.com/login_screen.png" width="250">
   <img src="http://achraf.fps-platform.com/doctors_list_screen.png" width="250">

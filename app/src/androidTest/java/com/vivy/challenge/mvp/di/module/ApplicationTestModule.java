@@ -59,7 +59,7 @@ public class ApplicationTestModule {
     String providePreferenceName() {
         return AppConstants.PREF_NAME;
     }
-    
+
 
     @Provides
     @Singleton
