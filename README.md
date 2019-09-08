@@ -1,5 +1,6 @@
 
 
+
 # VIVY TAKE HOME TEST CHALLENGE
 This repository contains a nearby doctor search application for VIVY
 <p align="center">
@@ -53,10 +54,12 @@ This repository contains a nearby doctor search application for VIVY
 In our case we force user to logout since the API of renewing token was not found.
 2. Location fetching is done in the splash screen for a simple reason that the app don't need a real time location tracking
 3. I remarked that the "Search doctors" API is providing results even if the location is far away from Germany (Tested with moroccan location) you can find a curl for testing it below :  [https://reqbin.com/vk6ofkne](https://reqbin.com/vk6ofkne)
-
+4. I took the decision to not comment the code for two reasons :
+	 - The logic is very easy to understand using the MVP architecture and with restepcting best best practices in methods and variable naming
+	 - Keep the code clean
 
 # TESTING
-Using the MVP architecture makes doing unit test an easy task, i JUnit and MOCKITO to test Model and Presenter Layers : 
+Using the MVP architecture makes doing unit test an easy task, i JUnit and MOCKITO to test Model and Presenter Layers :
 <p align="center">
   <img src="http://achraf.fps-platform.com/tests.png" width="250">
 </p>
